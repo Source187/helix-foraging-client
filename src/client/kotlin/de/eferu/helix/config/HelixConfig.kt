@@ -1,0 +1,28 @@
+package de.eferu.helix.config
+
+data class HelixConfig(
+    var centerX: Double = 0.0,
+    var centerY: Double = 64.0,
+    var centerZ: Double = 0.0,
+    var radius: Double = 8.0,
+    var minimumRadius: Double = 6.0,
+    var maximumRadius: Double = 12.0,
+    var verticalStep: Double = 0.35,
+    var angularStep: Double = 0.25,
+    var rotationCount: Double = 2.0,
+    var clockwise: Boolean = true,
+    var startingAngle: Double = 0.0,
+    var pointSpacing: Double = 1.5,
+    var routeHeight: Double = 24.0,
+    var routeVisible: Boolean = true,
+    var targetsVisible: Boolean = true,
+    var pathVisible: Boolean = true,
+    var pointLabels: Boolean = false,
+    var lineThickness: Float = 1.5f,
+    var routeOpacity: Float = 0.85f,
+    var routeColor: Int = 0xFF9B59FF.toInt(),
+    var currentPointColor: Int = 0xFFE056FD.toInt(),
+    var nextPointColor: Int = 0xFF67E8F9.toInt(),
+    var completedColor: Int = 0xFF4ADE80.toInt(),
+    var activeProfile: String = "Torrhus Style Helix",
+)

@@ -1,10 +1,15 @@
 {
   "helix.title": "Helix Foraging Client",
-  "helix.key.toggle_automation": "Toggle Automation",
-  "helix.key.pause_automation": "Pause Automation",
-  "helix.key.emergency_stop": "Emergency Stop",
-  "helix.key.open_click_gui": "Open Click GUI",
-  "helix.key.toggle_hud": "Toggle HUD",
-  "helix.key.toggle_route": "Toggle Route Rendering",
-  "helix.key.toggle_debug": "Toggle Debug Mode"
+  "category.helixforaging": "Helix Foraging",
+  "key.helixforaging.toggle_automation": "Toggle Automation",
+  "key.helixforaging.pause_automation": "Pause Automation",
+  "key.helixforaging.emergency_stop": "Emergency Stop",
+  "key.helixforaging.open_click_gui": "Open Click GUI",
+  "key.helixforaging.toggle_hud": "Toggle HUD",
+  "key.helixforaging.toggle_route": "Toggle Route Rendering",
+  "key.helixforaging.toggle_debug": "Toggle Debug Mode",
+  "key.helixforaging.foraging": "Foraging Module",
+  "key.helixforaging.hud": "HUD Module",
+  "key.helixforaging.route_visuals": "Route Visuals",
+  "key.helixforaging.debug": "Debug Module"
 }

@@ -28,15 +28,6 @@ loom {
             sourceSet(sourceSets["client"])
         }
     }
-
-    runs {
-        register("client") {
-            client()
-            name = "Fabric Client"
-            ideConfigGenerated(true)
-            runDir("run")
-        }
-    }
 }
 
 dependencies {
@@ -44,8 +35,17 @@ dependencies {
     implementation("net.fabricmc:fabric-loader:${property("loader_version")}")
     implementation("net.fabricmc.fabric-api:fabric-api:${property("fabric_api_version")}")
     implementation("net.fabricmc:fabric-language-kotlin:${property("fabric_kotlin_version")}")
+    implementation("com.google.code.gson:gson:2.11.0")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation(sourceSets["client"].output)
+}
+
+sourceSets {
+    named("test") {
+        kotlin.srcDirs("src/test/kotlin")
+    }
 }
 
 tasks.processResources {
