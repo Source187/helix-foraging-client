@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "helixforaging",
+  "version": "${version}",
+  "name": "Helix Foraging Client",
+  "description": "Modular foraging automation framework with Helix route engine, HUD, and configuration GUI for private SkyBlock testing.",
+  "authors": [
+    "eferu"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "de.eferu.helix.HelixClient"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1-",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13.13+kotlin.2.4.10"
+  }
+}

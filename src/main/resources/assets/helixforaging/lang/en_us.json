@@ -1,0 +1,10 @@
+{
+  "helix.title": "Helix Foraging Client",
+  "helix.key.toggle_automation": "Toggle Automation",
+  "helix.key.pause_automation": "Pause Automation",
+  "helix.key.emergency_stop": "Emergency Stop",
+  "helix.key.open_click_gui": "Open Click GUI",
+  "helix.key.toggle_hud": "Toggle HUD",
+  "helix.key.toggle_route": "Toggle Route Rendering",
+  "helix.key.toggle_debug": "Toggle Debug Mode"
+}
